@@ -146,7 +146,7 @@ void createItem(string info[], ItemList* itemList) {
 
 //display the menu of functions
 void displayMenu() {
-	cout << "Welcome to Genie’s video store" << endl;
+	cout << "Welcome to Genieâ€™s video store" << endl;
 	cout << "Enter an option below." << endl;
 	cout << "1. Add a new item, update or delete an existing item" << endl;
 	cout << "2. Add new customer or update an existing customer" << endl;
@@ -440,7 +440,5 @@ int main()
 		getFunction(&function);
 		performFunction(function, &customerList, &itemList, &customerf, &itemf);
 	} while (true);
-	int a;
-	cin >> a;
 	return 0;
 }
